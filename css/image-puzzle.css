@@ -1,0 +1,134 @@
+﻿#collage hr {
+    border: none;
+    border-top: 2px solid #f5f2f2;
+    height: 1px;
+}
+
+#collage #playPanel {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 51, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 10px auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+#collage #actualImageBox {
+    display: inline;
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: top;
+    width: 400px;
+}
+
+#collage #stepBox,
+#collage #timeBox {
+    display: inline-block;
+    width: 48%;
+}
+
+#collage #stepBox div {
+    background-color: black;
+    border-radius: 2px;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 1px 4px;
+    margin: 0px auto;
+    max-width: 800px;
+}
+
+#collage img#actualImage {
+    border: 2px solid;
+    border-radius: 10px;
+    height: 280px;
+    width: 280px;
+    margin: 0 auto; /* Menengahkan gambar secara horizontal */
+}
+
+#collage #sortable {
+    border: 2px solid;
+    border-radius: 10px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 600px;
+}
+
+#collage #sortable li {
+    background-size: 400% 400%;
+    border: none;
+    cursor: grab;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#collage button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+
+#collage .btn {
+    background-color: #008CBA;
+}
+
+#collage #btnRule {
+    background-color: #f44336;
+}
+
+#collage #newPhoto {
+    background-color: #4CAF50;
+}
+
+#collage #btnReplay {
+    background-color: #555555;
+}
+
+#collage .stepCount,
+#collage .timeCount {
+    font-weight: bold;
+}
+
+#collage #gameOver {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#collage #gameOver button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+/**/
+    #collage #playPanel {
+        font-size: 2em;
+    }
+    
+    #collage button {
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    
+  }
+  
